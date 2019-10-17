@@ -1,14 +1,12 @@
-﻿using System;
-
-namespace atm
+﻿namespace atm
 {
-  class Program
-  {
-    static void Main(string[] args)
+    class Program
     {
-      ATM atm = new ATM();
-      
-      atm.startATM();
+        static void Main(string[] args)
+        {
+            ATM atm = new ATM();
+
+            atm.startATM();
+        }
     }
-  }
 }
