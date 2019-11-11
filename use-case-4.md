@@ -27,15 +27,15 @@ Scenariusz główny (ścieżka podstawowa):
 
   1. Klient podchodzi do bankomatu.
   2. Klient wsadza kartę.
-    3. Bankomat sprawdza poprawność karty.
-    4. Klient wprowadza aktualny PIN.
-    5. Bankomat weryfikuje kartę i klienta.
-    6. Klient wybiera opcję "Zmiana PIN" w menu głównym.
-    7. Klient wprowadza nowy PIN.
-    8. Klient wprowadza drugi raz nowy PIN w celu potwierdzenia.
-    9. Bankomat aktualizuje system bankowy.
-    10. Bankomat wyświetla potwierdzenie zmiany PIN i wysuwa kartę.
-    11. Klient odchodzi od bankomatu.
+  3. Bankomat sprawdza poprawność karty.
+  4. Klient wprowadza aktualny PIN.
+  5. Bankomat weryfikuje kartę i klienta.
+  6. Klient wybiera opcję "Zmiana PIN" w menu głównym.
+  7. Klient wprowadza nowy PIN.
+  8. Klient wprowadza drugi raz nowy PIN w celu potwierdzenia.
+  9. Bankomat aktualizuje system bankowy.
+  10. Bankomat wyświetla potwierdzenie zmiany PIN i wysuwa kartę.
+  11. Klient odchodzi od bankomatu.
 
 Rozszerzenia (ścieżki alternatywne):
 ------------------------------------
@@ -48,7 +48,7 @@ Rozszerzenia (ścieżki alternatywne):
 
 5a. Błędny PIN (do 3 razy):
 
-	1. Bankomat wysuwa kartę.
+1. Bankomat wysuwa kartę.
 
 5b. Błędny PIN:
 
