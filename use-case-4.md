@@ -15,7 +15,7 @@ Główni odbiorcy i oczekiwania względem systemu:
 Warunki wstępne:
 ----------------
 
-Bankomat jest w gotowości, karta oraz klient zostali poprawnie zautoryzowani.
+Bankomat jest w gotowości
 
 Warunki końcowe:
 ----------------
