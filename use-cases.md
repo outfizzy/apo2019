@@ -4,24 +4,24 @@ Opis skrócony przypadków użycia
 Aktorzy procesu i ich cele
 --------------------------
 
-Aktor       Cel 
------------ -----------------------------
-Klient          Chce wypłacić, wpłacić gotówkę, sprawdzić stan konta, zmienić PIN.
-Technik         Chce uruchomić, zrestartować lub zatrzymać bankomat i uzupełnić brakującą gotówkę.
+| Aktor   | Cel                                                          |
+| ------- | ------------------------------------------------------------ |
+| Klient  | Chce wypłacić, wpłacić gotówkę, sprawdzić stan konta, zmienić PIN. |
+| Technik | Chce uruchomić, zrestartować lub zatrzymać bankomat i uzupełnić brakującą gotówkę. |
 
 Słownik
 -------
 
-Hasło       Opis
------------ -----------------------------
-Czytnik kart    Umożliwa odczyt danych zawartych na karcie klienta.
-Klient          Osoba korzystająca z bankomatu.
-Technik         Osoba uprawniona do zarządzania bankomatem.
-PIN             4 cyfrowy kod zabezpieczający dostęp do karty
-Karta           Karta uprawniająca do wypłaty gotówki lub umożliwiająca złożenie zlecenia płatniczego   
-Gotówka         Forma pieniądza w postaci banknotów
-Potwierdzenie   Dowód potwierdzający wykonanie zlecenia
-Menu            Element interfeujsu służący do wyboru czynności
+| Hasło         | Opis                                                         |
+| ------------- | ------------------------------------------------------------ |
+| Czytnik kart  | Umożliwia odczyt danych zawartych na karcie klienta.         |
+| Klient        | Osoba korzystająca z bankomatu.                              |
+| Technik       | Osoba uprawniona do zarządzania bankomatem.                  |
+| PIN           | 4 cyfrowy kod zabezpieczający dostęp do karty.               |
+| Karta         | Karta uprawniająca do wypłaty gotówki lub umożliwiająca złożenie zlecenia płatniczego. |
+| Gotówka       | Forma pieniądza w postaci banknotów.                         |
+| Potwierdzenie | Dowód potwierdzający wykonanie zlecenia.                     |
+| Menu          | Element interfejsu służący do wyboru czynności.              |
 
 Przypadki użycia
 ----------------
@@ -38,4 +38,4 @@ Klient podchodzi do bankomatu, wkłada kartę do czytnika. Ukazuje się ekran z 
 Klient podchodzi do bankomatu, wkłada kartę do czytnika. Ukazuje się ekran z wyborem języka. Użytkownik wybiera interesujący go język. Klient jest proszony o wprowadzenie PIN, ukazuje się menu z którego użytkownik wybiera pokaż saldo. Jeśli pin był poprawny bankomat pokazuje aktualny stan konta oraz możliwość wydruku, wypłatę gotówki oraz zakończenie transakcji. Po wybraniu opcji 1 drukuje się papier z stanem konta oraz wysuwa się karta. Po wybraniu trzeciej opcji wysuwa się tylko karta zaś po wybraniu opcji przechodzimy do akcji wypłaty z bankomatu
 
 ### Use case 4: Zmiana PIN
-Klient podchodzi do bankomatu, wkłada kartę do czytnika. Ukazuje się ekran z wyborem języka. Bankomat prosi o wpisanie numeru PIN. Klient po zatwierdzeniu karty wybiera z wyświetlonego menu opcję "Zmień PIN". Klekn proszony jest o wprowadzenie nowego numer PIN i jego ponowne wprowadzenie w celu weryfikacji. Bankomat wyświetla komunikat o poprawności zmiany numeru PIN, po czym wysuwa kartę z bankomatu. Klient zabiera kartę i odchodzi od bankomatu.
+Klient podchodzi do bankomatu, wkłada kartę do czytnika. Ukazuje się ekran z wyborem języka. Bankomat prosi o wpisanie numeru PIN. Klient po zatwierdzeniu karty wybiera z wyświetlonego menu opcję "Zmień PIN". Klient proszony jest o wprowadzenie nowego numer PIN i jego ponowne wprowadzenie w celu weryfikacji. Bankomat wyświetla komunikat o poprawności zmiany numeru PIN, po czym wysuwa kartę z bankomatu. Klient zabiera kartę i odchodzi od bankomatu.
