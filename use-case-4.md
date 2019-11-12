@@ -15,7 +15,7 @@ Główni odbiorcy i oczekiwania względem systemu:
 Warunki wstępne:
 ----------------
 
-Bankomat jest w gotowości
+Klient i karta przeszły pomyślnie proces autoryzacji.
 
 Warunki końcowe:
 ----------------
@@ -25,36 +25,19 @@ Numer PIN jest zmieniony. System bankowy jest zaktualizowany. Karta jest wysuni�
 Scenariusz główny (ścieżka podstawowa):
 ---------------------------------------
 
-  1. Klient podchodzi do bankomatu.
-  2. Klient wsadza kartę.
-  3. Bankomat sprawdza poprawność karty.
-  4. Klient wprowadza aktualny PIN.
-  5. Bankomat weryfikuje kartę i klienta.
-  6. Klient wybiera opcję "Zmiana PIN" w menu głównym.
-  7. Klient wprowadza nowy PIN.
-  8. Klient wprowadza drugi raz nowy PIN w celu potwierdzenia.
-  9. Bankomat aktualizuje system bankowy.
-  10. Bankomat wyświetla potwierdzenie zmiany PIN i wysuwa kartę.
-  11. Klient odchodzi od bankomatu.
+  1. Klient wybiera opcję "Zmiana PIN" w menu głównym.
+  2. Klient wprowadza nowy PIN.
+  3. Klient wprowadza drugi raz nowy PIN w celu potwierdzenia.
+  4. Bankomat aktualizuje system bankowy.
+  5. Bankomat wyświetla potwierdzenie zmiany PIN i wysuwa kartę.
+  6. Klient odchodzi od bankomatu.
 
 Rozszerzenia (ścieżki alternatywne):
 ------------------------------------
 
  *a. W dowolnym czasie, dotyczy sytuacji kiedy system napotka problem z połączeniem sieciowym bankomat anuluje transakcje i wysuwa kartę.
 
-3a. Fałszywa/zastrzeżona karta:
-
-1. Bankomat zatrzymuje kartę.
-
-5a. Błędny PIN (do 3 razy):
-
-1. Bankomat wysuwa kartę.
-
-5b. Błędny PIN:
-
-1. Bankomat zatrzymuje kartę.
-
-8a. Błędnie potwierdzony PIN:
+3a. Błędnie potwierdzony PIN:
 
 1. Bankomat wysuwa kartę.
 
